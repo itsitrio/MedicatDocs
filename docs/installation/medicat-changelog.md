@@ -99,3 +99,57 @@ Project Contributors:
 * A special thanks to the beta testers of the new MediCat installer. Thank you all for your time and dedication!
 
 </details>
+
+<details markdown="block">
+<summary>Version 21.06</summary>
+
+Changelog for v21.06:
+---
+
+### Added:
+* Discord Portable has been reinstated and works again. It's a little slow to startup and update itself, etc... but it does work.
+* DeepL Translator app in the PortableApps menu, for more fluent and smarter translations.
+* WBG Windows Password Reset was added to Jayro's Lockpick by @AAA3A
+* @AAA3A created a Startup.bat script that loads anything placed into the Y:\System\Startup\ folder once the desktop loads in. This can be useful for opening a custem application you like, or a notepad document, for example.
+* @AAA3A and I have added a custom Wallpaper Changer script to Mini Windows 10. Place your custom background.png into the Y:\System\ directory (Y:\System\background.png) and your custom wallpaper will be set upon the desktop loading in. If you do not have a wallpaper located at Y:\System\background.png, the defaut wallpaper from X:\Windows\Web\Wallpaper\Windows\img0.jpg will be provided for you.
+* A Wi-Fi connection generation script was made by @AAA3A, and added to the build. What you do is edit Y:\System\Startup\Wifi.bat with your network's SSID and Password, and switch the "set generation" flag to a capital 'Y'. Run the Wifi.bat, and it will generate you a Wifi.xml file. Then edit the "set generation" flag back to a capital 'N' and save it. Now it will connect to your Wi-Fi network automatically every time you boot up Mini Windows 10.
+* MON5TERMATT#9999 on the MediCat USB Official Discord server compiled AAA3A's batch file to an EXE that launches Tor Browser from the PortableApps Menu.
+* OnlyOffice Desktop Editor Portable has been added to the PortableApps Menu.
+* Many, many, MANY applications have been added to the Start Menu. Be sure to check out the entire thing, it's LOADED with applications now!
+* Exported previous MediCat USB wallpapers to the Themes folders, so you can now choose any of the previous MediCat USB wallpapers.
+* New icon theme for the PortableApps menu, made by Discord user ijahangard#8048.
+
+
+### Removed: 
+* Extra copy of ShredOS I forgot to remove in the last version.
+
+### Updated Apps:
+* Many PortableApps have been updated.
+* Ventoy to v1.0.46
+* Jayro's Lockpick (the WinPE) was rebuilt by me using WinBuilder.
+* Jayro's Lockpick (the application) was updated by @AAA3A.
+* Mini Windows 10 was rebuilt from the ground up using Windows 10 Pro v2004 in WinBuilder. This brings many improvements, like better Wi-Fi drivers and trackpad support for HP laptops.
+* Malwarebytes Bootable (the WinPE) was rebuilt using WinBuilder.
+* Added a craptop of Apps in the Mini Windows 10 Start Menu. Lots to choose from now.
+
+
+### Updated Images:
+~ Rescuezilla to v2.2 [UEFI]
+~ Macrium Reflect to v8.0.5994 [UEFI]
+~ Mini Windows 10
+~ Jayro's Lockpick
+~ Malwarebytes Bootable
+
+### Menu Changes:
+* Version info has been updated.
+* New Wallpaper
+* Better spacing adjustments for the F-key buttons at the bottom, since [F7] was added.
+
+
+
+### Fixed:
+* Better trackpad support in Mini Windows 10, Malwarebytes Bootable, and Jayro's Lockpick.
+* Rebuilt Malwarebytes Bootable - When you update the Virus Definitions, make sure you exit the app in the task tray, and re-open it so the new definitions take hold. Otherwise you may BSOD. And on that note, when running a custom scan, make sure you uncheck all 4 boxes on the left side to mitigate your chances of getting a BSOD.
+* Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
+
+</details>
