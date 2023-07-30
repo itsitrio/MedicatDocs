@@ -6,7 +6,7 @@ permalink: /
 ---
 
 {: .note }
-This website is being built with the documentation from the old Docs site. Any questions, please reach out on the official discord!
+This website is being built with the documentation from the old Docs site. Please wait as content is copied.
 
 The all-in-one bootable PC repair toolkit, powered by Ventoy.
 
