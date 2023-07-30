@@ -1,6 +1,7 @@
 ---
-title: SupportedDrives
+title: Supported Drives
 layout: default
+parent: Installation
 ---
 
 Any Drive over 32 GB is supported by Medicat.
