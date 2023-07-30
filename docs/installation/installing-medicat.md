@@ -23,6 +23,6 @@ This website is being built with the documentation from the old Docs site.
 8. Extract the Medicat RAR to the root of your USB drive
 9. Verify Everything is there.
 
-![](../../assets/images/usb_creation_instructions.jpg)
+![](../../assets/images/usb_creation_instructions.png)
 
 </details>
