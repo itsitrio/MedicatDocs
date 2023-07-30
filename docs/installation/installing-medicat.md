@@ -4,7 +4,8 @@ layout: default
 parent: Installation
 ---
 
-{: .note } This website is being built with the documentation from the old Docs site.
+{: .note }
+This website is being built with the documentation from the old Docs site.
 
 1. Download Medicat From the [Main Page](https://medicatusb.com)
 2. Check your Drive Compatability [Here](/docs/installation/supported-drives)
