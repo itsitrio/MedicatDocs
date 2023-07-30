@@ -97,7 +97,6 @@ Project Contributors:
 * Gremlin220366#4797 has been testing apps for us, helping us pin down troublesome applications. We really appreciate his efforts! He also supplied us with the new v2.2.1.1043 build of Malwarebytes Portable, to fix the crashes during a scan.
 * COFF33NINJA#1282 for suggesting the MediaCreationTool (MCT) that's been added.
 * A special thanks to the beta testers of the new MediCat installer. Thank you all for your time and dedication!
-
 </details>
 
 <details markdown="block">
@@ -151,7 +150,6 @@ Changelog for v21.06:
 * Better trackpad support in Mini Windows 10, Malwarebytes Bootable, and Jayro's Lockpick.
 * Rebuilt Malwarebytes Bootable - When you update the Virus Definitions, make sure you exit the app in the task tray, and re-open it so the new definitions take hold. Otherwise you may BSOD. And on that note, when running a custom scan, make sure you uncheck all 4 boxes on the left side to mitigate your chances of getting a BSOD.
 * Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
-
 </details>
 
 <details markdown="block">
@@ -193,7 +191,6 @@ Changelog for v21.05:
 ### Fixed:
 * Rebuilt Malwarebytes Bootable - When running a custom scan, uncheck all 4 boxes and you won't get the BSOD.
 * Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
-
 </details>
 
 <details markdown="block">
@@ -235,5 +232,151 @@ Changelog for v21.03:
 * Returned Malwarebytes Bootable to the 2018 WinPE, as scans were unable to be finished by the 2016 WinPE in the v12.01 release.
 * Set the "BootIt Bare Metal v1.70" ISO  under the "auto_memdisk" section of ventoy.json, so it just boots properly with the press of the ENTER button.
 * Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
+</details>
 
+<details markdown="block">
+<summary>Version 21.01</summary>
+
+Changelog for v21.01:
+---
+
+### Added:
+* If MediCat VHD (New project!) is added to a MediCat USB drive, it will automatically generate a folder for it on the Main Menu. From within that VHD folder, you can launch MediCat VHD, and it runs a full Windows 10 installation on your computer. It is far less limiting than Mini Windows 10. MediCat VHD must be downloaded separately, and is 20GB in size. So a 64GB MediCat USB flash drive is the minimum requirement to have them together. MediCat VHD will of course work alone on it's own 32GB USB drive.
+* Simple Vhd Manager v1.4 added to the PortableApps menu.
+* Mouse cursors no longer look ugly in Mini Windows 10, I added the Cursors folder to C:\Windows to resolve this.
+* Memtest86+ v5.31 Beta has been added as a BIOS-bootable Memory tester. This was added because Memtest86 v9.0 is UEFI-only, so now there's a memory tester for each boot mode. Memtest86+ v5.31 Beta has been added to the auto-MEMDISK list, and is transparent to the user. It also adds a nice Shutdown/Restart/Exit menu when exiting the app.
+* WinNc v9.7.0.0 added to PortableApps menu. It's a modern, feature-rich tabbed file explorer with a nice Windows 10 interface.
+* RS RAID Retrieve v1.3 added to PortableApps menu. Handles reassembling corrupted RAID arrays.
+
+### Removed: 
+* TeamViewer has been replaced by AnyDesk. Mostly for compatibility reasons and ease-of-use, but also because TeamViewer just flat-out SUCKS by comparison.
+
+### Updated:
+* Many PortableApps have been updated.
+* Ventoy to v1.0.33 <-- (Bug fix version mostly, but adds persistence for Kali and Clonezilla, as well as adding support for Linux VHD files from different bootloaders such as rEFInd, GRUB2, Systemd-boot, and GRUB4DOS.)
+* Mini Windows 10 was run through NTLite to enable Dark Mode, and use small taskbar icons to maximize available screen space. Boot.wim was also recompressed and made a tiny bit smaller.
+* Edited the Windows 10 & Windows 8.1 recovery disc titles by adding "+MS DaRT" at the end, so people know they include the useful MS DaRT utilities.
+* Google Chrome Portable x64 to v 88.0.4324.104
+* HDAT2 to v7.1 [BIOS]
+* Parted Magic to v2020.12.25 [UEFI]
+* SystemRescue to v7.02 Beta 005 [UEFI]
+* AOMEI Backupper to v6.3.0 [UEFI]
+* AOMEI Partition Assistant to v9.1 [UEFI]
+* NIUBI Partition Editor to v7.4 [UEFI]
+* Acronis TrueImage to v2021 Build 35860 [UEFI]
+* EaseUS Partition Master to v15.5 [UEFI]
+* Macrium Reflect to v7.3.5550 [UEFI]
+* MiniTool Partition Wizard to v12.3 [UEFI]
+* MiniTool ShadowMaker to v3.6 [UEFI]
+* MiniTool Power Data Recovery to v9.2 [UEFI]
+* PassMark MemTest86 to v9.0 Beta 2 [UEFI]
+
+### Menu Changes:
+* Version info has been updated.
+* Removed the holiday hat.
+* Adjusted my signature to look proper on 1920x1080 resolutions or less, up from 1366x768.
+* New wallpaper, since the holidays are over.
+
+### Fixed:
+* The Microsoft .NET regressions have been fixed, apparently the "assembly" folder accidentally got removed before the v20.12 release.
+* Fixed an issue where Portable 7-Zip v20.02 alpha was being detected as v19.00 Rev 2, and now won't be asked to upgrade when updating the other PortableApps (unless a legit newer version comes out).
+* Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
+</details>
+
+<details markdown="block">
+<summary>Version 20.12</summary>
+
+Changelog for v20.12:
+---
+
+### Added:
+* Discord Portable has been added to the PortableApps menu. You can now keep in touch with friends and family alike! (And it auto-updates itself upon launch!)
+* BootIt Bare Metal v1.69 [BIOS] added to the Boot_Repair directory.
+* My newest standalone creation "Jayro's Lockpick" is joining MediCat USB! It takes every Password Reset boot disk for resetting Windows user accounts and combines them all into one simple and easy to use WinPE boot disc. You're presented with a simple menu, with all the best password reset tools at your disposal once it's fully booted. Note: "Passcape Reset Windows Password" is packaged a little differently, so it takes longer to load than the rest... Please be patient with it.
+* Easy Translator to PortableApps menu, Accessibility section.
+
+### Removed: 
+* AOMEI Backupper PortableApp. It was redundant to the bootable WinPE version already on the USB. That's an additional 500+MB of disk space reclaimed.
+* "PCUnlocker", "Passcape Reset Windows Password", and "Active@ Password Changer" were all removed in favor of "Jayro's Lockpick", as mentioned above. They all reside in there now.
+
+### Updated:
+* Ventoy to v1.0.30 <-- Added Password protection plugin.
+* ShredOS is now password-protected as a safeguard, to prevent accidental launches. The password is "medicat" but without the quotes, and all lowercase letters. The password is shown on the menu entry itself, but you need to be set to 640x480 resolution or higher to read it. (Press [F5] to change screen resolutions)
+* Minimum memory requirements have been reduced at the bottom of this changelog, to better reflect the memory needs of the included WinPE WIM files. Minimum RAM requirements below has dropped from 3GB down to 2GB, but you'll still want 4GB or more for comfortable usage. Luckily most modern PCs and laptops come with no less than 4GB these days.
+* I actually downgraded the 2018 Malwarebytes Bootable WinPE to a 2016 version for added stability, it boots up WAY faster, uses much less RAM, and has a smaller file size. This older version is only temporary, until I have the time to build a proper one that's more up to date.
+* New driverpacks for Snappy Driver Installer, and the driverpacks have been reoptimized by me from 2.48GB, down to just 638MB. Removing all the useless drivers for NT x86+x64, XP x86+x64, Vista x86+x64, 7 x86+x64, 8 x86+x64, 8.1 x86+x64 and 10 x86 cleaned up a bit more disk space for us, keeping just the 10 x64 drivers. They are still located at /PortableApps/Snappy Driver Installer/Drivers if you need to edit them further.
+* I ran Mini Windows 10 through NTLite for a few settings changes and optimizations.
+* Malwarebytes virus definitions to v2020.12.21.01
+* Macrium Reflect to v7.3.5365 [UEFI]
+* Replaced "Active@ Boot Disk" with "Active@ Data Studio" because it has more to offer, and updated it to  v17.0.0 [UEFI]
+* Acronis True Image to v2021 build 34340 [UEFI]
+* Acronis Cyber Backup to v12.5 Build 16386 [UEFI]
+* Acronis Disk Director 12.5 build 163 [UEFI] is now the English version. Thanks to @Chansm on GBAtemp for the heads-up!
+* EaseUS Partition Master to v15.0 [UEFI]
+* NIUBI Partition Editor to v7.3.7 [UEFI]
+* Rescuezilla to v2.1 64bit [UEFI] (groovy 20.10 version)
+* Windows 10 Recovery disc updated to v10.0.19041.572 (Still includes MS DaRT)
+* Windows 8.1 Recovery disc updated to include MS DaRT.
+
+### Menu Changes:
+* Version info has been updated.
+* Changed the color of the F-keys to black, as the white blended into the light background.
+* Added a cool drop-shadow to my name at the bottom.
+* Squashed a bug in the 2016 Malwarebytes WinPE, where the Malwarebytes Web Access Control driver was causing issues when launching Malwarebytes Portable. The log file told me the exact file was X:\Windows\System32\drivers\mwac.sys, apparently. It's been removed, and I haven't had any more issues opening the app.
+* Changed the NVMe drive logo to match the logo on front page of the MediCat USB thread on the forum.
+
+### Fixed:
+* Moved O&O BlueCon to the "Boot_an_Operating_System" folder where it fits in better, since it's a WinPE toolbox.
+* Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
+</details>
+
+<details markdown="block">
+<summary>Version 20.11</summary>
+
+Changelog for v20.11:
+---
+
+Added:
+* Dual-mode "Boot Conf Replace" plugin has been added to of ventoy.json, so you can override the Linux config files with your own, instead of having to rebuild the ISO each time you update. The default example script was pasted in, and can be edited to your liking. I left it intact so it can be used as a reference. Read this to know more: https://www.ventoy.net/en/plugin_bootconf_replace.html
+* "Persistence" plugin has been added to ventoy.json, so you can have persistence files going to your bootable Linux distros. The default example script was pasted in, and can be edited to your liking. I left it intact so it can be used as a reference. Read this to know more: https://www.ventoy.net/en/plugin_persistence.html
+* "Injection" plugin has been added to ventoy.json, so you can inject some files (e.g. drivers/scripts, etc) into the runtime envrioment after boot.
+  For Windows, that's the WinPE envrioment. For Linux, that's the initramfs envrioment. The default example script was pasted in, and can be edited to your liking. I left it intact so it can be used as a reference. Read this to know more: https://www.ventoy.net/en/plugin_injection.html
+* "Auto Install" plugin has been added to ventoy.json, so you can use a setup script like "windows_unattended1.xml" or "ubuntu_server.seed" for example, instead of having to rebuild the ISO each time you update. The default example script was pasted in, and can be edited to your liking. I left it intact so it can be used as a reference. Read this to know more: https://www.ventoy.net/en/plugin_autoinstall.html
+* "Linux vDisk Boot" plugin has been added to ventoy_grub.cfg, so you can use the F6 GRUB menu to boot your fixed-size Linux disk file. (VHD, VDI, and RAW formats are supported. VHDX and dynamic disks are not supported.). The default example script was pasted in, and can be edited to your liking. I left it intact so it can be used as a reference. Read this to know more: https://www.ventoy.net/en/plugin_vtoyboot.html
+* "DUD (Driver Update Disk)" Plugin has been added to ventoy.json. Some linux distros provide a DUD mechanism. Give a Driver Update Disk image file and set some boot option during boot. Then the driver can be installed before disk scan. And hardware manufacturers generally also provide DUD images that conform to the corresponding distro requirement. The default example script was pasted in, and can be edited to your liking. I left it intact so it can be used as a reference. Read this to know more: https://www.ventoy.net/en/plugin_dud.html
+* Active Password Changer Ultimate v11.0 [UEFI] added to the Password Removal folder.
+* Acronis Disk Director v12.5 [UEFI] added to the Partition Tools folder.
+* Active UNERASER v16.0.2 [UEFI] added to the Partition Tools folder.
+* ShredOS v20200418 [UEFI] added to the Partition Tools folder.
+
+Removed: 
+* Many outdated and redundant apps in the Start Menu (Programs folder on the USB) were removed, due to already being in my PortableApps menu, and some were flat-out MOVED to the PortableApps menu for better accessibility. This shaved off a few hundred Megabytes.
+* DBAN v2.3.0 ==> It has been replaced by it's successor ShredOS v20200418, which can boot from UEFI.
+
+Updated:
+* Ventoy to v1.0.29
+* Malwarebytes virus definitions to v2020.11.22.05
+* EasyUEFI to v4.5 [UEFI]
+* Macrium Reflect to v7.3.5321 [UEFI]
+* DiskGenius to v5.3.0.1066 [UEFI]
+* AOMEI Backupper to v6.2.0 [UEFI]
+* AOMEI Partition Assistant to v9.0 [UEFI]
+* MiniTool Power Data Recovery to v9.1.1 [UEFI]
+* SystemRescue to v7.0.1 [UEFI]
+* You no longer have to mess with partition resizing! Just create a Ventoy-bootable USB using Ventoy2Disk, format the USB to NTFS, and then unzip the .001 file to the root of the drive. That's it!
+
+Menu Changes:
+* New square-shaped icons have been added, with rounded corners.
+* Added { "VTOY_TREE_VIEW_MENU_STYLE": "1" } to the ventoy.json file, which gets rid of the [DIR] tabs and ISO file sizes. Looks much cleaner.
+* Made the arrows on the Main Menu match Ventoy's arrows.
+* Made new icons for all the .ISO, .WIM, and .EFI files in each menu. (Took about 5 hours of repetitive work.) Lots of unused icons in there as well for you to use if you'd like. Many of them are operating system icons.
+* Moved MediCat USB version info to the bottom left corner.
+* Re-made the MemTest86 icon. It looked like trash, and now isn't a blurry pixelated mess anymore. The pins have defined gold theeth, the chips are more defined, and has more refined edges.
+* Added in a "back" button icon called vtoyret.png, thanks to Longpanda's advice. (@Ventoy on GBAtemp)
+* New icon dock for the F1 through F6 keys, with icons. Many hours of testing and experimenting went into this major change, but it finally scales well with all resolutions without over-crowding and overlapping each other, even at 640x480.
+* All these cool changes required a new badass wallpaper.
+
+Fixed:
+* You can now have spaces in your bootable ISO/WIM/EFI filenames.
+* Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
 </details>
