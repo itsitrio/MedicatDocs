@@ -5,13 +5,12 @@ parent: Installation
 ---
 
 <details markdown="block">
-<summary>Verion 21.12</summary>
+<summary>Version 21.12</summary>
 
 Changelog for v21.12:
-----
+---
 
-Added:
-
+###Added:
 * AOMEI Backupper, DiskGenius, EasyUEFI, Macrium Reflect, MiniTool ShadowMaker, and Symantec Ghost boot disks have been have been restored as bootable ISOs. (.wim files, more accurately.)
 * Windows 11 Recovery disc was added to the Windows Recovery menu, and I disabled the TPM 2.0 and CPU checks myself.
 * BIOS Beep Codes Verifier 1.0.3.1036 to PortableApps menu.
@@ -30,7 +29,7 @@ Added:
 * Added "The Official Website" URL shortcut to the Mini Windows 10 desktop, as well as in the Google Chrome Bookmarks bar.
 
 
-Removed: 
+###Removed: 
 * My personal SSID and Wi-Fi password have been removed from Wifi.bat (Oops!)
 * Problematic apps that would throw up errors or prompt you for a license have been removed.
 * OnlyOFFICE Portable, to save drive space.
@@ -39,7 +38,7 @@ Removed:
 * O&O BlueCon, to save drive space.
 * The 32-bit menu of Lockpick has been removed, as it was a useless waste of space.
 
-Updated Apps:
+###Updated Apps:
 * Many PortableApps have been updated.
 * Ventoy to v1.0.63
 * 7-zip to v21.06
@@ -47,7 +46,7 @@ Updated Apps:
 * Snappy Driver Installer Origin updated to vR739
 * PCUnlocker updated to v5.6 in Lockpick.
 
-Updated Images:
+###Updated Images:
 * EaseUs Partition Master to v16.5
 * Parted Magic to v2021.11.17
 * MiniTool Partition Wizard to v12.6
@@ -68,7 +67,7 @@ Updated Images:
 * Active@ Data Studio to v18.0.0
 * ShredOS to v2020.05.016, Build 0.32_20211029
 
-Menu Changes:
+###Menu Changes:
 * I have completely pain-stakingly rewritten ventoy.json, so that anyone can drop in a new updated .IMG, .ISO, .VHD, or .EFI file and rename it in the folder. This means you no longer have to edit ventoy.json when updating your bootable files.
 * As a result of the re-write above, the folder structure has also changed to not only take advantage of the new menu, but also in aiding users with tooltips under the menu, giving descriptions of the tools, and telling users wether the tool supports BIOS, UEFI, or both.
 * Backup_and_Restore has been renamed to Backup_and_Recovery.
@@ -78,19 +77,19 @@ Menu Changes:
 * New Wallpaper
 * Added a holiday hat to the mascot.
 
-Other Misc. Changes:
+###Other Misc. Changes:
 * The Driverpacks in USB:\PortableApps\SnappyDriverInstaller\Drivers\ have been repacked with the latest 64-bit Windows 10 drivers (and all others removed.)
 * The latest storage drivers have been integrated into Mini Windows 10's .wim file.
 * A new desktop icon is on the Mini Windows 10 desktop, taking the user to the new MediCat website. (medicatusb.xyz)
 
-Fixes:
+###Fixes:
 * The Malwarebytes Bootable WinPE now boots up Malwarebytes v2.2.1.1043, and completes virus scans without crashing. (Please see the _READ_ME!_.txt file at USB:\Programs\MalwarebytesPortable\ for more information.) Thanks @Gremlin220366#4797 for the new Malwarebytes Portable build!
 * Fixed the Wallpaper setter so it sets the wallpaper properly in Mini Windows 10. It sometimes wouldn't set in VMware testing, and has been fixed within pecmd.ini.
 * Also fixed Rainmeter not launching in certain instances.
 * Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
 
 Project Contributors:
-----
+---
 
 * MON5TERMATT contributed countless hours of his free time towards the installer of this project, the new website, server boosting, server moderation, seeding MediCat torrents, creating and maintaining the server bots, and more. He is a one man army, and is an invaluable asset to the MediCat dev team!
 * Daan Breur (Daan Breur#6262) on the MediCat Discord server contributed PowerShell code for the MediCat USB Installer during the Beta program. Thanks Daan!
