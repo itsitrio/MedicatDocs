@@ -13,5 +13,6 @@ That being said Medicat will boot with computer that only have 2.0 slots.
 
 
 Matt And Jayro strongly suggest using a USB SSD enclosure if you plan to use Medicat on a semi regular basis.
+
 ----
 
