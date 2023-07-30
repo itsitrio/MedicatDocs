@@ -153,3 +153,87 @@ Changelog for v21.06:
 * Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
 
 </details>
+
+<details markdown="block">
+<summary>Version 21.05</summary>
+
+Changelog for v21.05:
+---
+
+### Added:
+* The [F6] button's extra GRUB menu has been completely overhauled by GBATemp user @AAA3A, and has collaborated with me to bring you a robust information menu where you can see the changelog, the list of bootable tools, and many other nice additions to the Main Menu.
+* The [F7] button switches between the graphics mode and text mode on-the-fly without having to reboot the computer.
+
+### Removed: 
+* Portable Discord client - It stopped working with the recent updates, and I'm still trying to figure it out. It will hopefully come back someday... but for now, just use Discord in the Chrome browser.
+
+### Updated Apps:
+* Many PortableApps have been updated.
+* Ventoy to v1.0.45
+* Jayro's Lockpick was updated by @AAA3A
+
+### Updated Images:
+* Acronis True Image to v2021 Build 39216 [UEFI]
+* EaseUS Partition Master to v15.8 [UEFI]
+* AOMEI Backupper to v6.4 [UEFI]
+* AOMEI Partition Assistant v9.2.1 [UEFI]
+* SystemRescue to v8.03 [UEFI]
+* Parted Magic to v2021.05.12 [UEFI]
+* EasyUEFI to v4.6.2 [UEFI]
+* Acronis Cyber Backup to v12.5 Build 16428 [UEFI]
+* HDAT2 to v7.2 AIO [BIOS]
+* ShredOS to v2020.05 [UEFI]
+
+### Menu Changes:
+* Version info has been updated.
+* New wallpaper.
+* Moved the MediCat USB versioning info to the top of the menu so it's easier to read, regardless what the wallpaper has going on or the colors used.
+* Moved the [MEMDISK] and WIMBOOT tags to the bottom of the main menu, so they're easily visible when they're active.
+
+### Fixed:
+* Rebuilt Malwarebytes Bootable - When running a custom scan, uncheck all 4 boxes and you won't get the BSOD.
+* Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
+
+</details>
+
+<details markdown="block">
+<summary>Version 21.03</summary>
+
+Changelog for v21.03:
+---
+
+### Added:
+* PassMark Memtest86 Pro v9.0 for [ARM64/AARCH64] [UEFI]: Since Ventoy added ARM64/AARCH64 support, I figured it couldn't hurt to add this version for people with ARM64 hardware. Though I don't have any ARM64 computers myself, so it's completely untested by me. Any feedback of it working or not is greatly appreciated.
+
+### Removed: 
+* Replaced MiniTool Partition Wizard with AOMEI Partition Assistant, as MiniTool wouldn't launch under WinPE. Please Note: When you launch AOMEI Partition Assistant, it changes the screen resolution to 1024x768, and I'm not sure how to stop it from doing that. It's just a harmless side effect we'll have to live with for now.
+
+### Apps:
+* Many PortableApps have been updated.
+* Ventoy to v1.0.38
+* Wabbitemu's TI-83 Plus OS has been upgraded from v1.13 to v1.19 of the OS.
+
+### Updated Images:
+* Acronis True Image to v2021 Build 39184 [UEFI] (Huge bug-fix version.)
+* EaseUS Todo Backup to v 13.5.0 [UEFI]
+* AOMEI Backupper to v6.4 [UEFI]
+* NIUBI Partition Editor to v7.4.1 [UEFI]
+* Symantec Ghost x64 to v12.0.0.11331 [UEFI]
+* SystemRescue to v8.01 [UEFI]
+* O&O BlueCon to v18.0.8088 [UEFI]
+* Parted Magic to v2021.02.28 [UEFI]
+* EasyUEFI to v4.5.1 [UEFI]
+* PassMark Memtest86 Pro to v9.0 stable [UEFI]
+* BootIt Bare Metal to v1.70 [BIOS]
+
+### Menu Changes:
+* Version info has been updated.
+* New wallpaper.
+
+### Fixed:
+* Edited Lang.ini in the boot.wim of "MiniTool Power Data Recovery v9.2" from Spanish (Language=58) to English (Language=31), so it now boots in English.
+* Returned Malwarebytes Bootable to the 2018 WinPE, as scans were unable to be finished by the 2016 WinPE in the v12.01 release.
+* Set the "BootIt Bare Metal v1.70" ISO  under the "auto_memdisk" section of ventoy.json, so it just boots properly with the press of the ENTER button.
+* Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience.
+
+</details>
