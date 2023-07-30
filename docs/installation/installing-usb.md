@@ -1,5 +1,5 @@
 ---
-title: Installing Medicat
+title: Installing Medicat USB
 layout: default
 parent: Installation
 ---

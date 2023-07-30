@@ -1,5 +1,5 @@
 ---
-title: Changelog
+title: USB Changelog
 layout: default
 parent: Installation
 ---
