@@ -13,3 +13,5 @@ The all-in-one bootable PC repair toolkit, powered by Ventoy.
 
 > Current Version: v21.12
 
+* [Installing Medicat USB](../../usb/installing-usb/)
+* [Included Tools](../../usb/installing-usb/)
