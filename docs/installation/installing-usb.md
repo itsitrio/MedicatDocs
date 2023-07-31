@@ -2,6 +2,7 @@
 title: Installing Medicat USB
 layout: default
 parent: Installation
+last_modified_date: December 31, 2021
 ---
 
 {: .note }
