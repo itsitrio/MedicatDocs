@@ -2,7 +2,7 @@
 title: Installation
 layout: default
 has_children: true
-permalink: /docs/installation
+permalink: /docs/usb/installation
 nav_order: 2
 ---
 
