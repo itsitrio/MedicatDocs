@@ -24,7 +24,7 @@ last_edit_time_format: "%b %e %Y" # uses ruby's time format: https://ruby-doc.or
 
 favicon_ico: "/assets/images/site-icon.png"
 logo: "/assets/images/site-logo.png"
-footer_content: "Copyright &copy; 2021-2023 Medicat USB."
+footer_content: "Copyright &copy; 2021-2023 Medicat USB. All trademarks and copyrights mentioned herein are the property of their respective owners."
 
 
 
