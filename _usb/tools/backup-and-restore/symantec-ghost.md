@@ -7,7 +7,8 @@ last_modified_date: October 14, 2021
 ---
 
 # Symantec Ghost
-> Included Version: xx.xx
+{: .incversion }
+xx.xx
 
 This tool can creates and restores backup images of the entire disk, partition, or individual folders, and allows you to recover the system even when everything seems compromised.
 

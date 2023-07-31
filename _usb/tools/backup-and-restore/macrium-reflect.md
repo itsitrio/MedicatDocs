@@ -7,7 +7,8 @@ last_modified_date: September 28, 2021
 ---
 
 # Macrium Reflect
-> Included Version: xx.xx
+{: .incversion }
+xx.xx
 
 Macrium Reflect is a powerful full-featured software for backups. It provides many opportunities for backups of files/partitions and disk images. This is a very flexible product. There are different plans: Free, Personal, Standalone, Site Backup and Technician.
 
