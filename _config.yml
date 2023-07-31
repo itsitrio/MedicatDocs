@@ -28,3 +28,15 @@ callouts:
     color: purple
 
 color_scheme: dark
+
+
+nav_external_links:
+  - title: Medicat Discord
+    url: https://discord.com/invite/medicat
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+  - title: GBA Temp
+    url: https://gbatemp.net/threads/medicat-usb-a-multiboot-linux-usb-for-pc-repair.361577/
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+  - title: Main Project Website
+    url: https://medicatusb.com
+    hide_icon: false # set to true to hide the external link icon - defaults to false
