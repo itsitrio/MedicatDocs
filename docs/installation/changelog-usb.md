@@ -2,6 +2,7 @@
 title: USB Changelog
 layout: default
 parent: Installation
+nav_order: 99
 ---
 
 <details markdown="block">
