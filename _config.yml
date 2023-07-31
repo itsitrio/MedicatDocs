@@ -36,7 +36,7 @@ callouts:
     title: Note
     color: purple
   hihead:
-    color: grey-dk
+    color: grey-lt
 
 color_scheme: dark
 
