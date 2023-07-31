@@ -13,4 +13,4 @@ last_modified_date: March 29, 2023
 A USB Bootable Windows 11 Virtual Harddisk for PC Repair
 
 {: .curversion }
-Current Version: v21.06 (Built upon Windows 11 Dev Build v21996.1)
+v21.06 (Built upon Windows 11 Dev Build v21996.1)
