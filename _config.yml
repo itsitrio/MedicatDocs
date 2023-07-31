@@ -4,8 +4,8 @@ theme: just-the-docs
 
 url: https://docs.medicat.dev
 
-aux_links:
-  Medicat USB: https://medicatusb.com
+#aux_links:
+#  Medicat USB: https://medicatusb.com
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -51,7 +51,6 @@ nav_external_links:
     hide_icon: false # set to true to hide the external link icon - defaults to false
 
 
-    # Define Jekyll collections
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
   usb:
@@ -60,6 +59,7 @@ collections:
   vhd:
     permalink: "/:collection/:path/"
     output: true
+
 
 just_the_docs:
   # Define which collections are used in just-the-docs
