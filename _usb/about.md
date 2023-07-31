@@ -12,7 +12,7 @@ last_modified_date: March 29, 2023
 {: .hihead}
 The all-in-one bootable PC repair toolkit, powered by Ventoy.
 
-{: .curversion .float-left .my-0}
+{: .curversion .float-left .my-lg-0 .mr-lg-8}
 v21.12 - [See Changelog](../../usb/changelog/)
 
 * [Installing Medicat USB](../../usb/installing/)
