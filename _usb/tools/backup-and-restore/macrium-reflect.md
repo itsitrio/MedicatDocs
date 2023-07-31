@@ -8,7 +8,7 @@ last_modified_date: September 28, 2021
 
 # Macrium Reflect
 
-{: .incversion float-left mt-5 mr-4}
+{: .incversion .float-left .mt-5 .mr-4}
 xx.xx
 
 Macrium Reflect is a powerful full-featured software for backups. It provides many opportunities for backups of files/partitions and disk images. This is a very flexible product. There are different plans: Free, Personal, Standalone, Site Backup and Technician.
