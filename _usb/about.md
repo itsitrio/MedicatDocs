@@ -16,8 +16,10 @@ The all-in-one bootable PC repair toolkit, powered by Ventoy.
 <table>
     <tr>
         <td>
+
 {: .curversion}
 v21.12 - [See Changelog](../../usb/changelog/)
+
         </td>
         <td>
         </td>
