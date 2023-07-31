@@ -2,6 +2,8 @@
 title: USB Changelog
 layout: default
 parent: Installation
+nav_order: 99
+last_modified_date: March 29, 2023
 ---
 
 <details markdown="block">

@@ -18,6 +18,15 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html at %I:%M %p
+
+favicon_ico: "/assets/images/site-icon.png"
+logo: "/assets/images/site-logo.png"
+footer_content: "Copyright &copy; 2021-2023 Medicat USB."
+
+
 
 callouts:
   warning:
@@ -28,3 +37,15 @@ callouts:
     color: purple
 
 color_scheme: dark
+
+
+nav_external_links:
+  - title: Medicat Discord
+    url: https://discord.com/invite/medicat
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+  - title: GBA Temp
+    url: https://gbatemp.net/threads/medicat-usb-a-multiboot-linux-usb-for-pc-repair.361577/
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+  - title: Main Project Website
+    url: https://medicatusb.com
+    hide_icon: false # set to true to hide the external link icon - defaults to false
