@@ -1,5 +1,5 @@
 ---
-title: Backup and Restore
+title: Backup and Recovery
 layout: default
 has_children: true
 parent: Included Tools
