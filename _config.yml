@@ -4,8 +4,8 @@ theme: just-the-docs
 
 url: https://docs.medicat.dev
 
-aux_links:
-  Medicat USB: https://medicatusb.com
+#aux_links:
+#  Medicat USB: https://medicatusb.com
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -24,8 +24,35 @@ last_edit_time_format: "%b %e %Y" # uses ruby's time format: https://ruby-doc.or
 
 favicon_ico: "/assets/images/site-icon.png"
 logo: "/assets/images/site-logo.png"
-footer_content: "Copyright &copy; 2021-2023 Medicat USB."
+footer_content: "Copyright &copy; 2021-2023 Medicat USB. All trademarks and copyrights mentioned herein are the property of their respective owners."
 
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: true
 
 
 callouts:
@@ -35,6 +62,14 @@ callouts:
   note:
     title: Note
     color: purple
+  curversion:
+    title: Current Version
+    color: green
+  incversion:
+    title: Included Version
+    color: green
+  hihead:
+    color: grey-lt
 
 color_scheme: dark
 
@@ -49,3 +84,58 @@ nav_external_links:
   - title: Main Project Website
     url: https://medicatusb.com
     hide_icon: false # set to true to hide the external link icon - defaults to false
+
+
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  usb:
+    permalink: "/:collection/:path/"
+    output: true
+  vhd:
+    permalink: "/:collection/:path/"
+    output: true
+  2nd:
+    permalink: "/:collection/:path/"
+    output: true
+
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    usb:
+      # Give the collection a name
+      name: Medicat USB
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
+    vhd:
+      # Give the collection a name
+      name: Medicat VHD
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
+    2nd:
+      # Give the collection a name
+      name: Medicat Second Opinion
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true

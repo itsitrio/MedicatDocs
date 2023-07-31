@@ -2,8 +2,14 @@
 title: Symantec Ghost
 layout: default
 parent: Backup and Restore
+grand_parent: Included Tools
 last_modified_date: October 14, 2021
 ---
+
+# Symantec Ghost
+
+{: .incversion }
+xx.xx
 
 This tool can creates and restores backup images of the entire disk, partition, or individual folders, and allows you to recover the system even when everything seems compromised.
 

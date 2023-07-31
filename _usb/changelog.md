@@ -1,12 +1,14 @@
 ---
-title: USB Changelog
+title: Changelog
 layout: default
-parent: Installation
+#parent: Installation
 nav_order: 99
 last_modified_date: March 29, 2023
 ---
+# Medicat USB Changelog
 
-<details markdown="block">
+## Most Recent Changelog
+<details open markdown="block">
 <summary>Version 21.12</summary>
 
 Changelog for v21.12:
@@ -100,6 +102,8 @@ Project Contributors:
 * COFF33NINJA#1282 for suggesting the MediaCreationTool (MCT) that's been added.
 * A special thanks to the beta testers of the new MediCat installer. Thank you all for your time and dedication!
 </details>
+
+## Historical Changes
 
 <details markdown="block">
 <summary>Version 21.06</summary>
