@@ -2,6 +2,7 @@
 title: Symantec Ghost
 layout: default
 parent: Backup and Restore
+grand_parent: Tools
 last_modified_date: October 14, 2021
 ---
 
