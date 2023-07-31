@@ -1,5 +1,5 @@
 # Medicat USB Docs
-This repository is the home of documentation for Medicat. Feel free to fork the repository, make any suggested changes, and then create a pull request back to this repo.
+This repository is the home of documentation for Medicat. Feel free to fork the repository, make any suggested changes, and then create a pull request back to this repo. You can visit the documentation by navigating to [https://docs.medicat.dev](https://docs.medicat.dev) - any changes that are made to this repository's `main` branch are automatically deployed to site using Cloudflare Pages.
 
 ![](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=Cloudflare%20Pages&logoColor=white)
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
