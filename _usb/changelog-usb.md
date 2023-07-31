@@ -5,6 +5,7 @@ layout: default
 nav_order: 99
 last_modified_date: March 29, 2023
 ---
+# Medicat USB Changelog
 
 <details markdown="block">
 <summary>Version 21.12</summary>

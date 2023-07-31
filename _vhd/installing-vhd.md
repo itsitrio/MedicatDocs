@@ -5,6 +5,7 @@ layout: default
 nav_order: 2
 last_modified_date: March 29, 2023
 ---
+# Installing Medicat VHD
 
 {: .note }
 This website is being built with the documentation from the old Docs site.
