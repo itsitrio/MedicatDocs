@@ -10,6 +10,6 @@ This website is being built with the documentation from the old Docs site. Pleas
 
 To get started, review the [supported drives](../../docs/supported-drives/), and then select your Medicat:
 
-|:-:|:-:|
 | [Medicat USB](../../usb/about/) | [Medicat VHD](../../vhd/about/) |
+|:-:|:-:|
 | [![name](../../assets/images/medicat_usb_sm.png)](../../usb/about/) | [![name](../../assets/images/medicat_vhd_sm.png)](../../vhd/about/) |
