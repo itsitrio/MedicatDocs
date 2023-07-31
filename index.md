@@ -8,6 +8,6 @@ permalink: /
 {: .note }
 This website is being built with the documentation from the old Docs site. Please wait as content is copied.
 
-The all-in-one bootable PC repair toolkit, powered by Ventoy.
+[![name](../../assets/images/medicat_usb.png)](../../usb/about/)
 
-
+[![name](../../assets/images/medicat_vhd.png)](../../vhd/about/)
