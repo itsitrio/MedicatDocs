@@ -1,10 +1,12 @@
 ---
 title: Supported Drives
 layout: default
-parent: Installation
+#parent: Installation
 ---
 
-Any Drive over 32 GB is supported by Medicat.
+### Minimum Specification:
+USB 2.0 Drive with at least 32 GB of Space
+Any Drive over 64 GB is supported by Medicat.
 
 
 We SRONGLY suggest using a USB 3.0 or above as using usb2 will SEVERLY damage the speed of your install and some tools may fail to boot.
