@@ -6,6 +6,9 @@ nav_order: 1
 last_modified_date: March 29, 2023
 ---
 
+![](../../assets/images/medicat_vhd.png)
+
+
 {: .hihead }
 A USB Bootable Windows 11 Virtual Harddisk for PC Repair
 
