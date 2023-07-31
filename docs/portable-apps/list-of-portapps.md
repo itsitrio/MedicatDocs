@@ -1,7 +1,7 @@
 ---
 title: List of PortableApps
 layout: default
-parent: Backup and Restore
+parent: PortableApps
 last_modified_date: January 18, 2023
 ---
 
