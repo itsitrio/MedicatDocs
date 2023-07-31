@@ -8,14 +8,23 @@
 The all-in-one bootable PC repair toolkit, powered by Ventoy.
 
 ✔ Project is still active.
+
 ✔ This project is absolutely free to use; I do not charge anything for MediCat USB.
+
 ✔ MediCat USB is made to take advantage of bleeding edge computers.
+
 ✔ Derivative projects are allowed and encouraged.
+
 ✔ MediCat USB is clean of viruses, malware, or any kind of malicious code.
+
 ✔ Modify MediCat's ISOs and menus as you see fit!
+
 ✔ USB bootable using Ventoy and 7-zip.
+
 ✔ Supports Legacy BIOS (CSM) and UEFI
+
 ✔ Now has a page on https://alternativeto.net/software/medicat-dvd/about/
+
 ✔ Gluten-free, non-GMO, gender neutral, and no trans-fats!
 
 From the maker, Jayro:
