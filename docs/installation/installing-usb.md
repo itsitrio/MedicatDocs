@@ -20,7 +20,7 @@ STOP. If you are planning on using the Medicat Installer, do not continue. Inste
 5. Install Ventoy to your USB Drive By following the guide below
 6. Format your USB as NTFS
 7. Open 7Zip
-8. Extract the Medicat RAR to the root of your USB drive
+8. Extract the Medicat `.7z` to the root of your USB drive
 9. Verify Everything is there.
 
 ![](../../assets/images/usb_creation_instructions.png)
