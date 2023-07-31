@@ -7,6 +7,7 @@ last_modified_date: October 14, 2021
 ---
 
 # Symantec Ghost
+
 {: .incversion }
 xx.xx
 
