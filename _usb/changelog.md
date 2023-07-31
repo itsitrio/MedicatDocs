@@ -7,7 +7,7 @@ last_modified_date: March 29, 2023
 ---
 # Medicat USB Changelog
 
-<details markdown="block">
+<details open markdown="block">
 <summary>Version 21.12</summary>
 
 Changelog for v21.12:
