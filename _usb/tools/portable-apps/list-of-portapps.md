@@ -2,7 +2,7 @@
 title: List of PortableApps
 layout: default
 parent: PortableApps
-grand_parent: Tools
+grand_parent: Included Tools
 last_modified_date: January 18, 2023
 ---
 
