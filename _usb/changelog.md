@@ -7,6 +7,9 @@ last_modified_date: March 29, 2023
 ---
 # Medicat USB Changelog
 
+{:toc}
+
+## Most Recent Changelog
 <details open markdown="block">
 <summary>Version 21.12</summary>
 
@@ -101,6 +104,8 @@ Project Contributors:
 * COFF33NINJA#1282 for suggesting the MediaCreationTool (MCT) that's been added.
 * A special thanks to the beta testers of the new MediCat installer. Thank you all for your time and dedication!
 </details>
+
+## Historical Changes
 
 <details markdown="block">
 <summary>Version 21.06</summary>
