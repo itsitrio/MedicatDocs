@@ -27,6 +27,8 @@ The all-in-one bootable PC repair toolkit, powered by Ventoy.
 
 ✔ Gluten-free, non-GMO, gender neutral, and no trans-fats!
 
+----
+
 From the maker, Jayro:
 
 ### MediCat History:
