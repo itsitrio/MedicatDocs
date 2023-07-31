@@ -1,7 +1,7 @@
 ---
-title: VHD Changelog
+title: Changelog
 layout: default
-parent: Installation
+#parent: Installation
 nav_order: 99
 last_modified_date: March 29, 2023
 ---
