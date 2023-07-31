@@ -7,9 +7,6 @@ last_modified_date: March 29, 2023
 ---
 # Medicat USB Changelog
 
-1. TOC
-{:toc}
-
 ## Most Recent Changelog
 <details open markdown="block">
 <summary>Version 21.12</summary>
