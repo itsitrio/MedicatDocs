@@ -7,6 +7,7 @@ last_modified_date: March 29, 2023
 ---
 
 ![](../../assets/images/medicat_usb.png)
+# Medicat USB
 
 {: .hihead }
 The all-in-one bootable PC repair toolkit, powered by Ventoy.
