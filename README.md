@@ -1,4 +1,5 @@
 # Medicat USB Docs
+This repository is the home of documentation for Medicat. Feel free to fork the repository, make any suggested changes, and then create a pull request back to this repo.
 
 ![](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=Cloudflare%20Pages&logoColor=white)
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
@@ -9,7 +10,7 @@ The all-in-one bootable PC repair toolkit, powered by Ventoy.
 
 ✔ Project is still active.
 
-✔ This project is absolutely free to use; I do not charge anything for MediCat USB.
+✔ This project is absolutely free to use; we do not charge anything for MediCat USB.
 
 ✔ MediCat USB is made to take advantage of bleeding edge computers.
 
