@@ -8,6 +8,9 @@ last_modified_date: September 28, 2021
 
 # Acronis Cyber Backup
 
+![](/assets/screens/acronis-cyber-backup.png)
+
+
 {: .incversion }
 > Version 12.5.16428
 > {: .label .label-green .mx-0 .d-inline}
