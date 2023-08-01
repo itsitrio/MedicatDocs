@@ -4,7 +4,7 @@ layout: default
 nav_order: 1
 permalink: /
 ---
-
+![name](/assets/images/site-logo.png)
 {: .note }
 This website is being built with the documentation from the old Docs site. Please wait as content is copied.
 
