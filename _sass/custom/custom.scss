@@ -1,0 +1,26 @@
+// Initialize Customization File
+
+
+// Print-only styles.
+@media print {
+    .side-bar,
+    .page-header {
+      display: none;
+    }
+    .main-content {
+      max-width: auto;
+      margin: 1em;
+    }
+    .search-button {
+        display:none;
+    }
+    .label {
+        border-color: gray;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .breadcrumb-nav::before {
+        content: url('/assets/images/site-logo-print.png');
+    }
+  }
+  
