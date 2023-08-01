@@ -20,7 +20,7 @@
         border-width: 1px;
     }
     #main-content-wrap::before {
-        content:"<img src='assets/images/site-logo.png' />"
+        content: url('/assets/images/site-logo.png')
     }
   }
   
