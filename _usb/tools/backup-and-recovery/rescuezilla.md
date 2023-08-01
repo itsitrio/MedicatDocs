@@ -9,7 +9,7 @@ last_modified_date: September 28, 2021
 # Rescuezilla
 
 {: .incversion }
-> Version 3.6.0.23
+> Version 2.2
 > {: .label .label-green .mx-0 .d-inline}
 > ISO-9660 File (.ISO)
 > {: .label .label-blue .mx-0 .d-inline}
