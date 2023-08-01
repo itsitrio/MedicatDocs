@@ -6,9 +6,9 @@ grand_parent: Included Tools
 last_modified_date: September 28, 2021
 ---
 
-![](/assets/screens/spinrite.png)
-
 # Spinrite
+
+![](/assets/screens/spinrite.png)
 
 {: .incversion }
 > Version 6.0
