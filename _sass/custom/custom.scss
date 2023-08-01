@@ -19,7 +19,7 @@
         border-style: solid;
         border-width: 1px;
     }
-    #main-content-wrap::before {
+    #main-content::before {
         content: url('/assets/images/site-logo-print.png');
     }
   }
