@@ -2,6 +2,7 @@ title: Medicat USB Docs
 description: The all-in-one bootable PC repair toolkit, powered by Ventoy. 
 theme: just-the-docs
 color_scheme: medicat
+callouts_level: loud
 
 url: https://docs.medicat.dev
 
