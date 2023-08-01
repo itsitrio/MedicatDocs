@@ -1,7 +1,7 @@
 ---
 title: Symantec Ghost
 layout: default
-parent: Backup and Restore
+parent: Backup and Recovery
 grand_parent: Included Tools
 last_modified_date: October 14, 2021
 ---
@@ -9,7 +9,14 @@ last_modified_date: October 14, 2021
 # Symantec Ghost
 
 {: .incversion }
-xx.xx
+> Version Unknown
+> {: .label .label-green .mx-0 .d-inline}
+> Windows Imaging Format File (.WIM)
+> {: .label .label-blue .mx-0 .d-inline}
+> Windows
+> {: .label .label-purple .mx-0 .d-inline}
+
+---
 
 This tool can creates and restores backup images of the entire disk, partition, or individual folders, and allows you to recover the system even when everything seems compromised.
 
