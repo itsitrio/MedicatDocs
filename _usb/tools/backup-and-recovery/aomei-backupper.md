@@ -9,6 +9,7 @@ last_modified_date: September 28, 2021
 # AOMEI Backupper
 
 {: .incversion }
+
 > Version 6.8
 > {: .label .label-green }
 > WIM File
