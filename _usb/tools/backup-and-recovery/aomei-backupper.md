@@ -12,7 +12,7 @@ last_modified_date: September 28, 2021
 {: .incversion }
 > Version 6.8
 > {: .label .label-green .mx-0 .d-inline}
-> WIM File
+> Windows Imaging Format File (`.WIM`)
 > {: .label .label-blue .mx-0 .d-inline}
 
 Designed for Windows operating system users, both PCs (Windows XP/Vista/7/8/8.1/10/11 ) and Servers (Windows server 2003, 2008, 2012, 2016, 2019, etc.), to keep OS and files on computers safe and backed-up. AOMEI Backupper is embedded with backup, restore, and cloning features to make itself complete and professional windows backup software.
