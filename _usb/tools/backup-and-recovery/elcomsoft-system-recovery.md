@@ -8,6 +8,8 @@ last_modified_date: September 28, 2021
 
 # Elcomsoft System Recovery
 
+![](/assets/screens/esr.png)
+
 {: .incversion }
 > Version 7.2.628
 > {: .label .label-green .mx-0 .d-inline}

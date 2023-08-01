@@ -8,6 +8,9 @@ last_modified_date: September 28, 2021
 
 # Acronis True Image
 
+![](/assets/screens/acronis-true-image.png)
+
+
 {: .incversion }
 > Version 2021, Build 39216
 > {: .label .label-green .mx-0 .d-inline}
