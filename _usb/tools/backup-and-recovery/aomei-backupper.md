@@ -10,7 +10,8 @@ last_modified_date: September 28, 2021
 
 {: .incversion }
 > {: .label .label-green }
-> Version 6.8 
+> Version 6.8
+>
 > {: .label .label-blue }
 > WIM File
 
