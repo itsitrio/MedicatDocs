@@ -1,22 +1,20 @@
 ---
-title: BootIt Bare Metal
+title: EasyUEFI
 layout: default
 parent: Boot Repair
 grand_parent: Included Tools
 last_modified_date: September 28, 2021
 ---
 
-# BootIt Bare Metal
+# EasyUEFI
 
 {: .incversion }
-> Version 1.7
+> Version 4.5.2.1
 > {: .label .label-green .mx-0 .d-inline}
-> ISO-9660 File (.ISO)
+> Windows Imaging Format File (.WIM)
 > {: .label .label-blue .mx-0 .d-inline}
-> DOS
+> Windows
 > {: .label .label-purple .mx-0 .d-inline}
-> *BIOS Only*
-> {: .label .label-red .mx-0 .d-inline}
 
 ---
 
