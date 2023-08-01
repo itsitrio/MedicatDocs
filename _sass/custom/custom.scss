@@ -19,5 +19,8 @@
         border-style: solid;
         border-width: 1px;
     }
+    #main-content-wrap::before {
+        content:"<img src='assets/images/site-logo.png' />"
+    }
   }
   
