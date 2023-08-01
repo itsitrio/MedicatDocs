@@ -9,4 +9,12 @@ last_modified_date: September 28, 2021
 # Acronis True Image
 
 {: .incversion }
-xx.xx
+> Version 2021, Build 39216
+> {: .label .label-green .mx-0 .d-inline}
+> ISO-9660 File (.ISO)
+> {: .label .label-blue .mx-0 .d-inline}
+> Windows
+> {: .label .label-purple .mx-0 .d-inline}
+
+---
+

@@ -9,7 +9,15 @@ last_modified_date: September 28, 2021
 # Macrium Reflect
 
 {: .incversion }
-xx.xx
+> Version 8.0.6392.0
+> {: .label .label-green .mx-0 .d-inline}
+> Windows Imaging Format File (.WIM)
+> {: .label .label-blue .mx-0 .d-inline}
+> Windows
+> {: .label .label-purple .mx-0 .d-inline}
+
+---
+
 
 Macrium Reflect is a powerful full-featured software for backups. It provides many opportunities for backups of files/partitions and disk images. This is a very flexible product. There are different plans: Free, Personal, Standalone, Site Backup and Technician.
 
