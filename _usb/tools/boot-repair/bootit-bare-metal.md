@@ -15,7 +15,7 @@ last_modified_date: September 28, 2021
 > {: .label .label-blue .mx-0 .d-inline}
 > DOS
 > {: .label .label-purple .mx-0 .d-inline}
-> *BIOS Only*
+> **BIOS Only**
 > {: .label .label-red .mx-0 .d-inline}
 
 ---
