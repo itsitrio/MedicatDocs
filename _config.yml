@@ -71,8 +71,8 @@ callouts:
   hihead:
     color: grey-lt
   imgco:
-    color: grey-lt
-    opacity: 0
+    title: Preview Image
+    color: grey-dk
 
 color_scheme: dark
 
