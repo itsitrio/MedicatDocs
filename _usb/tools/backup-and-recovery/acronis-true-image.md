@@ -8,6 +8,7 @@ last_modified_date: September 28, 2021
 
 # Acronis True Image
 
+{: .imgco }
 ![](/assets/screens/acronis-true-image.png)
 
 

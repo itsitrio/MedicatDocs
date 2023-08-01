@@ -8,6 +8,7 @@ last_modified_date: September 28, 2021
 
 # Acronis Cyber Backup
 
+{: .imgco }
 ![](/assets/screens/acronis-cyber-backup.png)
 
 

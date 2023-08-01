@@ -8,6 +8,7 @@ last_modified_date: September 28, 2021
 
 # Spinrite
 
+{: .imgco }
 ![](/assets/screens/spinrite.png)
 
 {: .incversion }

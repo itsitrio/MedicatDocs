@@ -70,6 +70,9 @@ callouts:
     color: green
   hihead:
     color: grey-lt
+  imgco:
+    color: grey-lt
+    opacity: 0
 
 color_scheme: dark
 

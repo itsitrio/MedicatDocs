@@ -8,6 +8,7 @@ last_modified_date: September 28, 2021
 
 # Elcomsoft System Recovery
 
+{: .imgco }
 ![](/assets/screens/esr.png)
 
 {: .incversion }
