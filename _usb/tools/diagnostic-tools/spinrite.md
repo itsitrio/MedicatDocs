@@ -6,7 +6,7 @@ grand_parent: Included Tools
 last_modified_date: September 28, 2021
 ---
 
-![](../../assets/screens/spinrite.png)
+![](/assets/screens/spinrite.png)
 
 # Spinrite
 
