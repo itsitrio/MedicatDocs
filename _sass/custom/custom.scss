@@ -24,7 +24,7 @@
     }
   }
   
-@media (max-width: 50rem) {
+@media not print and (max-width: 50rem) {
   .main-header {
     display:block !important;
   }
