@@ -4,6 +4,7 @@ layout: default
 #parent: Installation
 nav_order: 1
 last_modified_date: March 29, 2023
+permalink: usb
 # .float-left .my-lg-0 .mr-lg-8
 ---
 

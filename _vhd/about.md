@@ -4,6 +4,7 @@ layout: default
 #parent: Installation
 nav_order: 1
 last_modified_date: March 29, 2023
+permalink: vhd
 ---
 
 ![](../../assets/images/medicat_vhd.png)
