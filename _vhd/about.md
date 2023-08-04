@@ -16,3 +16,5 @@ A USB Bootable Windows 11 Virtual Harddisk for PC Repair
 
 {: .curversion }
 v21.06 (Built upon Windows 11 Dev Build v21996.1)
+
+* [Installing Medicat USB](../../vhd/installing/)

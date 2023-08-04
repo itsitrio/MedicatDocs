@@ -19,6 +19,3 @@ v21.12 - [See Changelog](../../usb/changelog/)
 
 * [Installing Medicat USB](../../usb/installing/)
 * [Included Tools](../../usb/tools/)
-
-
-
